@@ -1,5 +1,31 @@
 = image:http://robobinding.org/images/robobinding_logo.png[width=60, height=60] RoboBinding
 
+一个实现了数据绑定 Presentation Model(MVVM) 模式的Android开源框架。 在没有性能损失的前提下(使用源代码生成来替代Java反射)，RoboBinding 帮助你编写更可读，易于测试与维护的UI代码。
+
+通过绑定移除 - 大量不必要的代码(如addXXListener()，findViewById()等) 。
+
+将 - 难于测试的Android代码以及运行过久且不切实际的Android单元测试 - 变为 pojo PresentationModels 及其普通的JUnit单元测试。
+
+提供对象类型Cursor来替换 - 关系类型Cursor，因为我们已经习惯于操作对象 。
+
+可以很容易的为任何自定义组件，第三方组件或Android widget编写属性绑定实现，简化代码，使项目易于维护。
+
+让我们来看 中文介绍视频或 英文介绍视频，然后从这里开始吧。
+
+RoboBinding注重 代码质量 ，RoboBinding源代码易于阅读并带有完整测试集合，你可以很容易的看懂并参与贡献。想参与贡献？从这里开始。
+
+RoboBinding喜欢听到你的 不同看法或建议 ，并邀请你发贴到RoboBinding的 Google group。
+
+ http://www.iconpng.com/png/large-torrent/download.png 下载: 在Maven Central上的 已发布版本或者在Sonatype OSS Repo上最新的 snapshots开发版本
+
+ GitHub 开发与源代码: GitHub
+
+ Google groups 论坛与讨论( 支持中文 ): Google讨论组 及  QQ群 ：308303599
+
+ https://g.twimg.com/Twitter_logo_blue.png Twitter: @robobinding
+
+ GitHub 问题与bugs: 报告一个问题
+
 A data-binding http://martinfowler.com/eaaDev/PresentationModel.html[Presentation Model] (MVVM) framework for the Android platform.
 RoboBinding helps you write UI code that is easier to read, test and maintain without performance compromise (code generation instead of java reflection).
 
